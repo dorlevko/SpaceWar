@@ -137,13 +137,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8130129206115922973}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.70640886, y: -0.02849585, z: -0.028505798, w: 0.70665544}
   m_LocalPosition: {x: 0.6023146, y: 1.0824708, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 7124419693065603415}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: -4.62}
 --- !u!33 &8130129206117050467
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 8130129206116280385}
   - component: {fileID: 8473964194503267588}
   - component: {fileID: 1946641524609733120}
+  - component: {fileID: 6184555027649138732}
   m_Layer: 0
   m_Name: Turret_Enemy
   m_TagString: Untagged
@@ -330,6 +331,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 7124419693065603415}
+--- !u!114 &6184555027649138732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130129206115923041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25f78e5c9268ae24398d9ea13c6b697e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gun: {fileID: 7124419693065603415}
+  shootingDelay: 1
+  bulletPrefab: {fileID: 5224285138146815182, guid: b8c0596f38871c945bb999703be35127,
+    type: 3}
+  shootingPower: 13
 --- !u!1 &8130129206115923043
 GameObject:
   m_ObjectHideFlags: 0
