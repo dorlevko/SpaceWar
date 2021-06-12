@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\GM.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Human.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SpaceShipAttack.cs" />
     <Compile Include="Assets\Scripts\SpaceShipController.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />

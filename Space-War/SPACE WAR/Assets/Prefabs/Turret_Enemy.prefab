@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7124419693065603415}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8130129206116280441}
   - component: {fileID: 8130129206117050399}
   - component: {fileID: 8130129206118181471}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Turret Upperbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 8130129206116280445}
   - component: {fileID: 8130129206117050467}
   - component: {fileID: 8130129206118181539}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Turret Missile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 8130129206116280447}
   - component: {fileID: 8130129206117050397}
   - component: {fileID: 8130129206118181469}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Turret Shooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +282,9 @@ GameObject:
   - component: {fileID: 8473964194503267588}
   - component: {fileID: 1946641524609733120}
   - component: {fileID: 6184555027649138732}
-  m_Layer: 0
+  - component: {fileID: -7700436198679140730}
+  - component: {fileID: -1753015408530455040}
+  m_Layer: 11
   m_Name: Turret_Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,6 +350,37 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5224285138146815182, guid: b8c0596f38871c945bb999703be35127,
     type: 3}
   shootingPower: 13
+--- !u!114 &-7700436198679140730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130129206115923041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4afb45c9e2457e429adab484be57735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnemy: 1
+  health: 25
+  maxHealth: 25
+  healthBar: {fileID: 0}
+  spawnOnDestroy: {fileID: 1158129094165586, guid: d59d38c888baf2648bf081ab00de3fa4,
+    type: 3}
+--- !u!135 &-1753015408530455040
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130129206115923041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8130129206115923043
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +392,7 @@ GameObject:
   - component: {fileID: 8130129206116280387}
   - component: {fileID: 8130129206117050465}
   - component: {fileID: 8130129206118181537}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Base Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}

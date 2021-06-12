@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 640088510911207163}
   - component: {fileID: 733476480221793799}
   - component: {fileID: 732155352626651669}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4765,7 +4765,7 @@ GameObject:
   - component: {fileID: 640323008504681703}
   - component: {fileID: 733371647460531753}
   - component: {fileID: 732154390478500871}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Flame Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9521,7 +9521,7 @@ GameObject:
   - component: {fileID: 5438028728965903981}
   - component: {fileID: 6238648994283155459}
   - component: {fileID: 4235780336180788136}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Missile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9586,7 +9586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 041c8d24fea71f0449d6616449c135d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   isEnemy: 1
   spawnOnDestroy: {fileID: 1096847040765866, guid: 4d6b65d248ca7df4ba61bcb0804beef9,
     type: 3}
@@ -9603,7 +9603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 089b2a2591d1744469b9471e3d1cd62a, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 089b2a2591d1744469b9471e3d1cd62a, type: 3}
       propertyPath: m_RootOrder

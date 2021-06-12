@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4592801223114349059}
   - component: {fileID: 6450936820661161618}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,8 @@ GameObject:
   - component: {fileID: 8539115530852352088}
   - component: {fileID: 5146111260363585824}
   - component: {fileID: 7937199373364751962}
-  m_Layer: 0
+  - component: {fileID: 7802497017333718387}
+  m_Layer: 10
   m_Name: Bullet 1
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -123,7 +124,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4158728215589558095}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.1
   m_Height: 0.39
@@ -145,6 +146,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7802497017333718387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4158728215589558095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 041c8d24fea71f0449d6616449c135d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  isEnemy: 0
+  spawnOnDestroy: {fileID: 1096847040765866, guid: 4d6b65d248ca7df4ba61bcb0804beef9,
+    type: 3}
 --- !u!1 &8819207422556617465
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8017502625737830052}
   - component: {fileID: 148791058745446500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bullet Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
