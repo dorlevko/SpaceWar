@@ -9,6 +9,12 @@ public class Human : MonoBehaviour
     public float pickUpDelay = 3f;
     public Image rescueBar;
     public static int rescueCount;
+    public static int humanCount;
+
+    public void Start()
+    {
+        humanCount++;
+    }
 
     private void OnTriggerStay(Collider other)
     {

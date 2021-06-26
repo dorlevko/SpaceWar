@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 6184555027649138732}
   - component: {fileID: -7700436198679140730}
   - component: {fileID: -1753015408530455040}
+  - component: {fileID: 2942407689204875854}
   m_Layer: 11
   m_Name: Turret_Enemy
   m_TagString: Untagged
@@ -381,6 +382,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2942407689204875854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130129206115923041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce4a9b8f7e85804ab30d1492ea8298d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 2
 --- !u!1 &8130129206115923043
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Bullet
   - EnemyBullet
+  - Enemy
+  - GameOverPanel
+  - CoinsText
   layers:
   - Default
   - TransparentFX
